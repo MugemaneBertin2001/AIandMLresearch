@@ -3,7 +3,7 @@ import datetime
 def request_year_of_birth():
     current_year = datetime.datetime.now().year
     while True:
-        year_input = input(f"Enter your year of birth (type 'q' to quit): ")
+        year_input = input("Enter your year of birth (type 'q' to quit): ")
         if year_input.lower() == 'q':
             return None
         try:
